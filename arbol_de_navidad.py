@@ -1,5 +1,5 @@
 # tuve que copiar el codigo ya que no encontre el error de mi codigo y solo me salia la mitad de mi arbol
-# pero igual tengo guardado mi codigo antiguo en una nota para que me explique en que parte hice mal
+# pero igual tengo guardado mi codigo antiguo en una nota para que me explique en que parte hice  mal
 import turtle
 
 screen = turtle.Screen()
