@@ -26,6 +26,7 @@ for i in range(1, 17):
         square.goto(x,-y+280)
         square.stamp()
         square.goto(-x,-y+280)
+        square.stamp()
 
     if i % 4 ==0:
         x = 30*(j+1)
@@ -47,7 +48,7 @@ for i in range(1, 17):
 square.color('brown')
 for i in range(17,20):
     y = 30*i
-    for i in range(3):
+    for j in range(3):
         x = 30*j
         square.goto(x,-y+280)
         square.stamp()
