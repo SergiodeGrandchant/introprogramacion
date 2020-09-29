@@ -2,4 +2,4 @@
 # ht = horas trabajadas
 ht = float(input("¿Cuantas horas al dia trabajas?"))
 pago = float(input("¿Cuanto te pagan por hora trabajada?"))
-print(ht * pago)
+print("el monto a pagar es de: ", ht * pago)
