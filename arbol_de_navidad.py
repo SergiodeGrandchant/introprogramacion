@@ -1,5 +1,3 @@
-# tuve que copiar el codigo ya que no encontre el error de mi codigo y solo me salia la mitad de mi arbol
-# pero igual tengo guardado mi codigo antiguo en una nota para que me explique en que parte hice  mal
 import turtle
 
 screen = turtle.Screen()
@@ -31,7 +29,7 @@ for i in range(1, 17):
         square.stamp()
 
     if i % 4 == 0:
-        x = 30 * (j + 1)
+        x = 30*(j+1)
         circle.color('red')
         circle.goto(-x, -y + 280)
         circle.stamp()
