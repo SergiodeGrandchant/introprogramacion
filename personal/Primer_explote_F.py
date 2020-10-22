@@ -33,7 +33,7 @@ pygame.display.update()
 while not game_over:
     for event in pygame.event.get():
         #con un print event es como un mapeo de la pantalla a usasr
-        #print(event)
+        # print(event)
 
         if event.type == pygame.QUIT:
             sys.exit()
