@@ -2,3 +2,4 @@
 num = int(input("Dame un numero: "))
 for i in range(num):
     print("* " * (i+1))
+print("hola " * 3)
