@@ -17,3 +17,6 @@ while True:
         if event.type == QUIT:
             pygame.quit()
             sys.exit()
+#------------------------------------------------------
+# IMPORTANTE finalizacinde del trutel
+turtle.exitonclick()

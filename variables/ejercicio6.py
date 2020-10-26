@@ -3,4 +3,5 @@ peso = float(input("¿Cual es tu peso? pon tu peso en kg: "))
 altura = float(input("¿Cual es tu altura? ponla en metros porfavor: "))
 # idmc = indice de masa corporal
 idmc = peso / (altura**2)
-print("tu indice de masa corporal es de: ", idmc)
+resultado = f"Tu indice de masa corporal es de: {idmc}"
+print(resultado)

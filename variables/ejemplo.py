@@ -1,5 +1,6 @@
 v1 = 3+4*2
 print(v1)
+# int=enteros str=palabras float = decimales bool = true false
 
 v2 = (2+6)*2
 print(v2)
