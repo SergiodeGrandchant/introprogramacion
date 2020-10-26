@@ -2,7 +2,7 @@
 
 def palindromo(palabra):
     tam = len(palabra)
-    tam = tam-1
+    tam = tam - 1
     palabraInv = ""
     for indice in range(tam,-1,-1):
         palabraInv = palabraInv + palabra[indice]
