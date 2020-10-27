@@ -6,5 +6,5 @@ def vocal(letra):
     else:
         print(letra, " = FALSE")
 
-letra = input("Dame una letra: ")
+letra = input("Dame una letra: ") 
 vocal(letra)
