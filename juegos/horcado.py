@@ -82,6 +82,7 @@ while(intentos>0):
     for pos in range(0,tam,1):
         if(letra==vectorPalabraOculta[pos] or letra == vectorPalabraOculta[pos].lower()):
             vectorPalabraGuiones[pos]=letra
+            coincidencias = coincidencias+1
 
     print(vectorPalabraGuiones)
     for pos in range(0,tam,1):
