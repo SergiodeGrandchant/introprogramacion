@@ -8,5 +8,6 @@ def contador(lista):
 
 palabra = input("Dame la palabra: ")
 res = contador(palabra)
+
 print(res)
 

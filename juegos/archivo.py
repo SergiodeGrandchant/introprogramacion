@@ -1,5 +1,5 @@
 
-archivo = open("palabra oculta","r")
+archivo = open("palabras_sencillas", "r")
 
 listapalabraoculta=archivo.readlines()
 
